@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mainbg {
+    background-image: url(./removedBG/mainBG.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'CHEESEBURGA';
+    src: url('/cheeseburga/CHEESEBURGA\ demo.ttf') format('truetype');
+}
+
+.weltext {
+    width: 100vw;
+    position: absolute;
+    font-family: 'CHEESEBURGA';
+    font-size: 7vw;
+    background: linear-gradient(180deg, #FFF280 30%, #7EFF5E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.7vw #0F1B29;
+    text-stroke: 0.7vw #0F1B29;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+}
+
+.background-text {
+    width: 100vw;
+    position: absolute;
+    font-family: 'CHEESEBURGA';
+    position: absolute;
+    top: 1.5vh;
+    left: 1vw;
+    color: #0F1B29;
+    font-size: 7vw;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.weltext1 {
+    width: 100%;
+    font-family: 'CHEESEBURGA';
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background: #060020;
+    padding: 2vw;
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .highlight {
+    color: #ffd700;
+  }
+  
